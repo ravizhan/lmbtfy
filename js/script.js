@@ -68,7 +68,7 @@ $(function() {
                             $arrow.removeClass('active').fadeIn().animate({
                                 left: $searchSubmit.offset().left + $searchSubmit.width()  / 2 + 'px',
                                 top:  $searchSubmit.offset().top  + $searchSubmit.height() / 2 + 'px'
-                            }, 1000, function () {
+                            }, 1200, function () {
                                 $tips.html('<strong>怎么样，学会了吗？</strong>');
                                 $arrow.addClass('active');
                                 
